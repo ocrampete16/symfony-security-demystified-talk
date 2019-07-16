@@ -6,5 +6,7 @@
             "email": "m@rcopetersen.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/security": "^4.3"
+    }
 }
