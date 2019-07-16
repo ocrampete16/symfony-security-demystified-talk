@@ -1,0 +1,10 @@
+{
+    "name": "marco/symfony-security-demystified-talk",
+    "authors": [
+        {
+            "name": "Marco Petersen",
+            "email": "m@rcopetersen.com"
+        }
+    ],
+    "require": {}
+}
