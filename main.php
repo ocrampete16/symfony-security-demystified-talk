@@ -32,7 +32,7 @@ $userProvider = new InMemoryUserProvider([
 ]);
 
 // The user checker provides hooks that let you check the user before authentication and after authentication.
-// The default implementation checks for the following:
+// The default implementation checks for the following (if User implements the AdvancedUserInterface):
 // - Pre-Auth: if the user (fetched from the DB) is disabled, locked or expired.
 // - Post-Auth: if the user's (who we know gave the correct password) credentials have expired, even though they are correct.
 $userChecker = new UserChecker();
